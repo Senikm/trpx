@@ -13,6 +13,7 @@
 #include <vector>
 #include <charconv>
 #include <cassert>
+#include <cmath>
 #include "Bit_pointer.hpp"
 #include "XML_element.hpp"
 
