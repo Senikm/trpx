@@ -11,6 +11,5 @@ target_include_directories(terse PUBLIC ${TERSE_INCLUDE_DIR})
 add_executable(prolix prolix.cpp )
 target_include_directories(prolix PUBLIC ${TERSE_INCLUDE_DIR})
 
-
-
-
+add_executable(raw_codec raw_codec.cpp)
+target_include_directories(raw_codec PUBLIC ${TERSE_INCLUDE_DIR})
